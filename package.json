@@ -1,0 +1,26 @@
+{
+    "name": "pretty-console.log",
+    "version": "1.0.0",
+    "description": "A minimalist module to change the behavior of console.log and making it prettier",
+    "main": "index.js",
+    "scripts": {
+	"test": "./test.js"
+    },
+    "keywords": [
+	"free software",
+	"color",
+	"pretty",
+	"console.log"
+    ],
+    "repository": {
+	"type": "git",
+	"url": "git@gitlab.com:Emeraude/Pretty-console.log.git"
+    },
+    "author": {
+	"name": "Emeraude",
+	"email": "broggi_t@epitech.eu"
+    },
+    "license": "GPL-3.0",
+    "homepage": "https://gitlab.com/Emeraude/Pretty-console.log",
+    "os": "linux"
+}
