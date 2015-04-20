@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var pcl = require('./index');
 
 console.log("before enabling...");

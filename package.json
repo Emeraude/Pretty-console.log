@@ -1,6 +1,7 @@
+
 {
     "name": "pretty-console.log",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A minimalist module to change the behavior of console.log and making it prettier",
     "main": "index.js",
     "scripts": {
