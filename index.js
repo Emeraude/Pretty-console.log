@@ -1,15 +1,18 @@
 var save = console.log;
 
-exports.enable = function() {
-    console.log = function(a) {
-	console.info(require('util').inspect(a, {colors: true}));
-    }
+module.exports = function(a) {
+    console.info(require('util').inspect(a, {colors: true}));
 }
 
-exports.disable = function() {
+module.exports.enable = function() {
+    console.log = this;
+}
+
+module.exports.disable = function() {
     console.log = save;
 }
 
-exports.print = function(a) {
-    console.info(require('util').inspect(a, {colors: true}));
+module.exports.print = function(a) {
+    require('deprecate-me')({since: '1.1.0', removed: '2.0.0', message: 'You should use directly require(\'pretty-console.log\')() instead'});
+    this(a);
 }

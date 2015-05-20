@@ -1,7 +1,7 @@
 
 {
     "name": "pretty-console.log",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A minimalist module to change the behavior of console.log and making it prettier",
     "main": "index.js",
     "scripts": {
@@ -20,6 +20,9 @@
     "author": {
 	"name": "Emeraude",
 	"email": "broggi_t@epitech.eu"
+    },
+    "dependencies": {
+	"deprecate-me": "~1.1.2"
     },
     "license": "GPL-3.0",
     "homepage": "https://gitlab.com/Emeraude/Pretty-console.log",

@@ -14,7 +14,7 @@ npm install pretty-console.log
 var pcl = require("pretty-console.log")
 pcl.enable() // The next calls to console.log will be prettified
 pcl.disable() // The next calls to console.log will not be prettified
-pcl.print("It's pretty !") // The behavior of console.log will not be modified but the argument will be pretty printed
+pcl("It's pretty !") // The behavior of console.log will not be modified but the argument will be pretty printed
 ```
 
 ## Test

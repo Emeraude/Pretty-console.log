@@ -7,4 +7,4 @@ pcl.enable();
 console.log("OMFG It's colored !");
 pcl.disable();
 console.log("color has gone ='(");
-pcl.print({str: "a pretty object", nb: 42, bool: true, date: new Date(), undef: undefined});
+pcl({str: "a pretty object", nb: 42, bool: true, date: new Date(), undef: undefined});
