@@ -17,13 +17,6 @@ pcl.disable() // The next calls to console.log will not be prettified
 pcl("It's pretty !") // The behavior of console.log will not be modified but the argument will be pretty printed
 ```
 
-## Test
-
-You can simply test it by running the following :
-```bash
-./test.js
-```
-
 ### Author
 
 Emeraude
